@@ -28,6 +28,7 @@ class Article extends React.Component {
           content={post.body}
           date={post.frontmatter.date}
           tags={post.frontmatter.tags}
+          language={post.frontmatter.language}
           translations={post.frontmatter.translations}
         />
         <ArticleFooter>

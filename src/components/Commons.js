@@ -70,7 +70,6 @@ export const Bull = styled.span`
 
 export const ReadingTime = props => {
   const ReadingTimeContainer = styled.span`
-    text-transform: uppercase;
     color: ${colors.postMetadata};
   `
   return <ReadingTimeContainer>{props.min} min read</ReadingTimeContainer>

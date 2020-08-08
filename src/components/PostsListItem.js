@@ -4,6 +4,7 @@ import Flag from './Flag/Flag'
 import TagList from './TagList'
 import useSiteMetadata from '../hooks/use-site-config'
 import styled from 'styled-components'
+import Time from './Time'
 import { colors } from '../tokens'
 import { Bull, ReadingTime } from './Commons'
 
@@ -52,7 +53,7 @@ const FooterLine = styled.div`
 `
 
 const PostsListItem = props => {
-  const { title, excerpt, slug, language, tags, timeToRead } = props
+  const { title, date, excerpt, slug, language, tags, timeToRead } = props
   const { defaultLang } = useSiteMetadata()
 
   return (
@@ -72,12 +73,12 @@ const PostsListItem = props => {
 
       <footer>
         <FooterLine>
-          <ReadingTime min={timeToRead} />
+          <Time date={date} language={language} />
           <Bull />
           <TagList tags={tags} />
         </FooterLine>
         <ReadPost to={`/${slug}`} aria-label={`View ${title} article`}>
-          Read post ›
+          Blog lezen ›
         </ReadPost>
       </footer>
     </Post>

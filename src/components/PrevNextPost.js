@@ -6,7 +6,8 @@ import useSiteMetadata from '../hooks/use-site-config'
 import useSiteImages from '../hooks/use-site-images'
 import TagList from './TagList'
 import Flag from './Flag/Flag'
-import { ReadingTime, Bull } from './Commons'
+import Time from './Time'
+import { Bull } from './Commons'
 
 const PreviewContainer = styled.aside`
   display: flex;
@@ -82,6 +83,7 @@ const PrevNextPost = props => {
           const { excerpt, timeToRead } = article.node
           const {
             tags,
+            date,
             cover,
             title,
             slug,
@@ -106,7 +108,7 @@ const PrevNextPost = props => {
                     <p>{excerpt}</p>
                   </section>
                   <footer>
-                    <ReadingTime min={timeToRead} />
+                    <Time date={date} language={language} />
                     {Array.isArray(tags) && (
                       <>
                         <Bull />

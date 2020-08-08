@@ -14,18 +14,18 @@ const Header = styled.header`
 
 class ContentIntro extends React.Component {
   render() {
-    const { date, tags, translations } = this.props
+    const { date, tags, language, translations } = this.props
 
     return (
       <Header>
-        {date && <Time date={date} />}
+        {date && <Time date={date} language={language} />}
         {date && Array.isArray(tags) && tags.length > 0 && <Bull />}
         {Array.isArray(tags) && tags.length > 0 && (
           <Fragment>
             <TagList tags={tags} />
           </Fragment>
         )}
-
+        {translations && <Bull />}
         {translations && <Translations translations={translations} />}
       </Header>
     )

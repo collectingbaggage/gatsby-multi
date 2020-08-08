@@ -6,11 +6,11 @@ const Time = props => {
   const TimeContainer = styled.time`
     color: ${colors.postMetadata};
   `
-  const { date } = props
+  const { date, language } = props
 
   const dateObject = new Date(date)
   const yyyymmdd = dateObject
-    .toLocaleDateString('en-GB', {
+    .toLocaleDateString(language, {
       year: 'numeric',
       month: '2-digit',
       day: 'numeric',
@@ -18,7 +18,7 @@ const Time = props => {
     .split('/')
     .reverse()
     .join('-')
-  const friendlyDate = dateObject.toLocaleDateString('en-GB', {
+  const friendlyDate = dateObject.toLocaleDateString(language, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

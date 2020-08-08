@@ -9,7 +9,7 @@ const ListContainer = styled.div`
 `
 
 const TagListItemLink = styled(Link)`
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: ${colors.postMetadata};
 
   &:not(:first-child) {
@@ -25,7 +25,7 @@ const TagListItemLink = styled(Link)`
 `
 
 const TagListItem = styled.span`
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: ${colors.postMetadata};
   &:not(:first-child) {
     margin-left: 0.3rem;

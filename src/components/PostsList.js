@@ -11,6 +11,7 @@ const PostsList = ({ posts }) => {
       {posts.map(post => {
         const props = {
           title: post.node.frontmatter.title,
+          date: post.node.frontmatter.date,
           excerpt: post.node.excerpt,
           slug: post.node.frontmatter.slug,
           timeToRead: post.node.timeToRead,

@@ -65,7 +65,7 @@
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
-    "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
     "prettier": "^2.0.5",
     "puppeteer": "^1.17.0",
     "semantic-release": "^15.13.18",

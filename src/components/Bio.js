@@ -70,10 +70,6 @@ const Bio = () => {
           className="img"
         />
       </figure>
-      <section>
-        <h4>About the author</h4>
-        <BioText dangerouslySetInnerHTML={{ __html: authorDescription }} />
-      </section>
     </BioWrapper>
   )
 }
