@@ -9,7 +9,7 @@ tags:
   - netherlands
   - travel-journal
   - united-kingdom
-description: ''
+excerpt: ''
 language: de
 translations:
   - link: /stuiteren

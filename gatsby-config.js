@@ -53,10 +53,8 @@ module.exports = {
               withWebp: true,
             },
           },
-          { resolve: 'gatsby-remark-prismjs' },
           { resolve: 'gatsby-remark-responsive-iframe' },
           { resolve: 'gatsby-remark-copy-linked-files' },
-          { resolve: 'gatsby-remark-smartypants' },
           { resolve: 'gatsby-remark-autolink-headers' },
         ],
       },
@@ -73,12 +71,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: config.googleAnalyticsId,
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

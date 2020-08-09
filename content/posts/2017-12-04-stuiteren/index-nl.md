@@ -9,12 +9,13 @@ tags:
   - netherlands
   - travel-journal
   - united-kingdom
-description: ''
+excerpt: ''
 language: nl
 translations:
   - link: /koeningsplaene
     hreflang: de
     language: Deutsch
+cover: ./images/DSC_0469.jpg
 ---
 
 Zeven maanden geleden stonden we allebei te stuiteren op het Janskerkhof in Utrecht. Ja, de muziek op die Koningsdag was goed, maar we waren vooral erg enthousiast over ons eigen plan om een wereldreis te maken. Nu zijn we dan eindelijk vertrokken. Met het gevoel dat we iets vergeten zijn, maar dat zal het besef zijn hoe lang we eigenlijk weggaan.

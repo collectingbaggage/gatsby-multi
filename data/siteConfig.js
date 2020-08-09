@@ -10,13 +10,13 @@ module.exports = {
   disqusSiteUrl: '',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
   pathPrefix: '', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover-baymax.jpeg', // file in content/images
+  siteCover: 'cover-amazonas.jpg', // file in content/images
   googleAnalyticsId: '',
   background_color: '#ededed',
   theme_color: '#2d2c2c',
   display: 'standalone',
   icon: 'content/images/avatar.png',
-  postsPerPage: 6,
+  postsPerPage: 12,
   disqusShortname: '',
   headerTitle: 'Collecting Baggage',
   headerLinksIcon: 'avatar.png', //  (leave empty to disable: '')

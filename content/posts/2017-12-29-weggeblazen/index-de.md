@@ -8,7 +8,7 @@ tags:
   - chile
   - hiking
   - travel-journal
-description: >-
+excerpt: >-
   Das Phänomen des Inselhopsens ist bekannt: Von der einen Insel zur nächsten
   reisen. Wir leiten einen neuen Trend ein: Das Länderhopsen, vom einen Land ins
   andere und wieder zurück. Inzwischen waren wir nämlich in Argentinien, sind

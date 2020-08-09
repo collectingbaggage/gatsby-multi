@@ -8,7 +8,7 @@ tags:
   - chile
   - hiking
   - travel-journal
-description: >-
+excerpt: >-
   Iedereen kent het fenomeen island-hopping wel: van het ene naar het andere
   eiland reizen. Wij introduceren bij deze land-hopping: van het ene naar het
   andere land reizen en vice versa. Inmiddels zijn we namelijk in Argentinië
@@ -19,6 +19,7 @@ translations:
   - link: /wie-weggeblasen
     hreflang: de
     language: Deutsch
+cover: ./images/PC180425-PC180432.jpg
 ---
 
 Iedereen kent het fenomeen island-hopping wel: van het ene naar het andere eiland reizen. Wij introduceren bij deze land-hopping: van het ene naar het andere land reizen en vice versa. Inmiddels zijn we namelijk in Argentinië geweest, zijn we alweer terug in Chili en in de toekomst keren we waarschijnlijk weer terug naar Argentinië én weer naar Chili.
