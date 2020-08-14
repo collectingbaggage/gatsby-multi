@@ -18,7 +18,7 @@ translations:
 
 Der Wurstfachverkäufer beim Schlachter schaut uns skeptisch an. Er hält das kleine Beutelchen mit Hackfleisch in die Luft. „Wirklich nur 150 Gramm? Seid ihr sicher?“. Ja, wir sind uns sicher. Wir laufen nach draußen, aber natürlich nicht ohne unser „boleta“.
 
-\[caption id="attachment\_142" align="alignleft" width="217"\]![](images/dsc_0478-011562999171-217x300.jpeg) La boleta\[/caption\]
+![La boleta](images/dsc_0478-011562999171-217x300.jpeg)
 
 Wir befinden uns in Chile und unser Schlachtereierlebnis fasst gleich zwei wichtige Bräuche des Landes zusammen. Chile ist ein Fleischland. Wer zu wenig Hackfleisch kauft, wird zurecht schräg angeschaut. Und man verlässt einen Laden niemals, aber auch wirklich niemals, ohne einen handschriftlich geschriebenen Bon („boleta“ ist jetzt schon eins der wichtigsten spanischen Wörtern, die wir bisher gelernt haben). Beim Bäcker nebenan wurde es noch verrückter: man bestellt ein Brötchen, die Verkäuferin schreibt den Preis sorgfältig auf den Bon, welchen man zum Kassierer in der Ecke trägt, bezahlt, zurück läuft zur Verkäuferin und endlich sein Brötchen ausgehändigt bekommt. Natürlich muss man einen der zwei Bons mitnehmen. Ob man sich jetzt zum Abholen auch wieder in der Schlange anstellen muss, müssen wir noch herausfinden.
 
@@ -82,4 +82,4 @@ Unser Busticket wollten wir übrigens umtauschen, weil die Autobahn nach Santiag
 
 Im Reservat selbst wanderten wir zu einem Aussichtspunkt oben auf dem Berg, der uns den Hinweg vergessen ließ. Zur Belohnung gab es die Aussicht auf Punta Arenas, die Gewässer der Magellanstraße und das dahinter liegende Feuerland. „It is the end of the world as we know it“, denn jenseits der Hügel am Horizont liegt nur noch das kalte Eis der Antarktis. Okay, wir schummeln hier ein bisschen: Dazwischen liegen noch ein paar Inseln, aber das Festland hört hier wirklich auf. Echt jetzt.
 
-\[caption id="attachment\_187" align="aligncenter" width="900"\]![](images/PC090096-PC090102-1024x351.jpg) Punta Arenas and the Magellan Street\[/caption\]
+![Punta Arenas and the Magellan Street](images/PC090096-PC090102-1024x351.jpg)
