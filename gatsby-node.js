@@ -4,9 +4,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   const BlogPostTemplate = require.resolve('./src/templates/blog-post.js')
-  const BlogPostShareImage = require.resolve(
-    './src/templates/blog-post-share-image.js'
-  )
   const PageTemplate = require.resolve('./src/templates/page.js')
   const PostsBytagTemplate = require.resolve('./src/templates/tags.js')
   const ListPostsTemplate = require.resolve(
@@ -34,7 +31,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               }
               unlisted
             }
-            timeToRead
             excerpt
           }
         }
@@ -97,19 +93,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         next,
       },
     })
-
-    // generate post share images (dev only)
-    if (process.env.gatsby_executing_command.includes('develop')) {
-      createPage({
-        path: `${post.node.frontmatter.slug}/image_share`,
-        component: BlogPostShareImage,
-        context: {
-          slug: post.node.frontmatter.slug,
-          width: 440,
-          height: 220,
-        },
-      })
-    }
   })
 
   // generate pages

@@ -13,5 +13,3 @@ Wat toen als soloreis begon is dat nooit echt geworden. Meer dan vijf jaar later
 Flughafen Vancouver, Gepäckband 10, September 2012: nach einem stundenlangen Flug über den Atlantik hievt Freke ihren Rucksack vom Band und setzt ihn geschmeidig neben den grünen Rucksack von einem dem Anschein nach anderen Alleinreisenden. Malte ist zwar eigentlich viel zu müde für ein anregendes Gespräch, aber naja. Er lässt sich dann doch gerne dazu überreden, um sich am nächsten Morgen zu einer Erkundungstour durch Downtown Vancouver zu verabreden.
 
 Was damals als Alleinreise anfing, ist nie eine solche geworden. Mehr als fünf Jahre danach sind wir immer noch zusammen. Wir sind der Sucht verfallen, um stets mehr Gepäck zu versammeln — Gepäck in Form von Erinnerungen, Erfahrungen und dem ein oder anderen Souvenir. Im Dezember 2017 begann dann unsere bis dahin größte Sammelwut: Eine Weltreise durch Südamerika, Australien und Südostasien.
-
-![wij](./profile.jpg)

@@ -23,14 +23,10 @@
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js' 'data/siteConfig.js' 'gatsby-*.js' 'scripts/*.js'",
-    "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js",
     "lh": "lighthousebot",
     "semantic-release": "semantic-release",
     "start": "gatsby develop",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
-  },
-  "bin": {
-    "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.5.9",
