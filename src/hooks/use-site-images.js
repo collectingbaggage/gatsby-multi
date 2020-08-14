@@ -8,7 +8,7 @@ const useSiteImages = imageName => {
           node {
             relativePath
             childImageSharp {
-              fixed {
+              fixed(quality: 90, width: 200, height: 200, cropFocus: NORTH) {
                 base64
                 tracedSVG
                 aspectRatio
@@ -20,7 +20,7 @@ const useSiteImages = imageName => {
                 srcSetWebp
                 originalName
               }
-              fluid {
+              fluid(quality: 90, maxWidth: 640, traceSVG: { color: "#D2E1FA" }) {
                 base64
                 tracedSVG
                 aspectRatio
