@@ -36,7 +36,7 @@ const PostHeader = styled.header`
   padding: 1em 0;
 `
 
-const Excerpt = styled.p`
+const Excerpt = styled.MDXRenderer`
   color: ${colors.textLight};
   line-height: 1.75;
   padding-bottom: 0.5em;
@@ -70,7 +70,7 @@ const PostsListItem = props => {
       </PostHeader>
 
       <section>
-        <Excerpt dangerouslySetInnerHTML={{ __html: excerpt }} />
+        <Excerpt>{{ excerpt }}</Excerpt>
       </section>
 
       <footer>

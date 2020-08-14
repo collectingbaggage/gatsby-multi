@@ -49,7 +49,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 590,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
               withWebp: true,
             },
           },
@@ -59,13 +59,7 @@ module.exports = {
         ],
       },
     },
-    // Reminder (https://github.com/gatsbyjs/gatsby/issues/15486#issuecomment-509405867)
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-images`],
-      },
-    },
+    `gatsby-remark-images`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
