@@ -23,6 +23,7 @@ const TitleContainer = styled.div`
 `
 
 const HeroTitle = styled.h1`
+  font-family: 'Special Elite', cursive;
   font-weight: 700;
   font-size: 3rem;
   margin: 10px 50px;
@@ -31,6 +32,7 @@ const HeroTitle = styled.h1`
 `
 
 const HeroSubTitle = styled.h2`
+  font-family: 'Special Elite', cursive;
   margin: 10px 50px;
   color: ${colors.white};
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.85);

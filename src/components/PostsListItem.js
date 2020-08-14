@@ -32,11 +32,13 @@ const ReadPost = styled(Link)`
 `
 
 const PostHeader = styled.header`
+  font-family: 'Special Elite', cursive;
   padding: 1em 0;
 `
 
 const Excerpt = styled.p`
-  line-height: 1.45;
+  color: ${colors.textLight};
+  line-height: 1.75;
   padding-bottom: 0.5em;
 `
 

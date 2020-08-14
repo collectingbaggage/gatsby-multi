@@ -15,6 +15,7 @@ const HeaderWrapper = styled.header`
   width: 100%;
   z-index: 1000;
   background-color: ${colors.primaryAlpha};
+  font-family: 'Special Elite', cursive;
   font-weight: 700;
 
   @media ${media.medium} {

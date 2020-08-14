@@ -22,7 +22,7 @@ class Template extends React.Component {
       <>
         <Helmet>
           <link
-            href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Special+Elite&display=swap"
             rel="stylesheet"
           />
         </Helmet>
