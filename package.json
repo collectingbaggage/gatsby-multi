@@ -1,27 +1,26 @@
 {
-  "name": "gatsby-starter-morning-dew",
-  "version": "0.0.0-development",
-  "description": "A Gatsby theme/starter to build lightning-fast blog/websites",
+  "name": "collecting-baggage-blog",
+  "version": "1.0.0",
+  "description": "Blog",
   "keywords": [
     "blog",
     "gatsby",
-    "gatsby-plugin",
-    "gatsby-theme",
-    "starter"
+    "travel",
+    "journal"
   ],
-  "homepage": "https://github.com/maxpou/gatsby-starter-morning-dew#readme",
+  "homepage": "https://collectingbaggage.netlify.app",
   "bugs": {
-    "url": "https://github.com/maxpou/gatsby-starter-morning-dew/issues"
+    "url": "https://github.com/collectingbaggage/gatsby-multi/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxpou/gatsby-starter-morning-dew.git"
+    "url": "https://github.com/collectingbaggage/gatsby-multi.git"
   },
   "license": "MIT",
-  "author": "Maxence Poutord <maxence.poutord@gmail.com>",
+  "author": "Malte",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js' 'data/siteConfig.js' 'gatsby-*.js' 'scripts/*.js'",
     "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js",
@@ -38,7 +37,7 @@
     "@mdx-js/react": "^1.5.9",
     "babel-plugin-styled-components": "^1.10.6",
     "disqus-react": "^1.0.8",
-    "gatsby": "^2.20.36",
+    "gatsby": "^2.24.47",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-compile-es6-packages": "^2.1.0",
     "gatsby-plugin-google-analytics": "^2.2.5",
